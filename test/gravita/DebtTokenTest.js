@@ -58,12 +58,12 @@ contract("DebtToken", async accounts => {
 
 	it("name(): returns the token's name", async () => {
 		const name = await debtToken.name()
-		assert.equal(name, "Gravita Debt Token")
+		assert.equal(name, "Collateralyze Debt Token")
 	})
 
 	it("symbol(): returns the token's symbol", async () => {
 		const symbol = await debtToken.symbol()
-		assert.equal(symbol, "GRAI")
+		assert.equal(symbol, "CSDC")
 	})
 
 	it("decimal(): returns the number of decimal digits used", async () => {
